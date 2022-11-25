@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+
+.headScreen {
+    height: 55vmin;
+    background-color: rgb(77, 9, 9);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-image: url("./aboutImages/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 98vw;
+}
+
+.headScreen>div:first-child {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vmax;
+
+}
+
+.headScreen>div>nav {
+    color: white;
+    background-color: transparent;
+    margin: 2vmax;
+    padding: 1vmax;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.headScreen>div>nav:first-child {
+    border-bottom: 3px solid rgba(198, 151, 10, 1);
+}
+
+
+.headScreen>div>nav:last-child {
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 1vmax;
+    border-radius: 10vmax;
+}
+
+.headScreen>div:last-child {
+    margin: auto;
+    text-align: center;
+}
+
+
+.headScreen>div:last-child>h2 {
+    font-size: 4vmin;
+    color: white;
+    font-weight: 300;
+}
+
+.headScreen>div>h2>span {
+    color: rgb(255, 187, 61);
+}
+
+.headScreen>div>h1 {
+    color: white;
+    font-size: 10vmin;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+.headScreen>div>h1>span {
+    color: rgb(255, 187, 61);
+}
+
+
+
+
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:98vw;    
+    margin-top: 30px;
+}
+
+
+.secondDiv > img{
+    width:60%;
+}
+.thirdDiv{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+.thirdDiv > div{
+    margin: 3vmax;
+width: 40%;
+}
+.thirdDiv > img{
+    width: 40%;
+
+}
+.thirdDiv > div> h3{
+    font-size:6vmin;
+}
+.thirdDiv > div> h1{
+    font-size:9vmin;
+}
+
+.thirdDiv > div > h1 >span{
+    color:rgb(77, 9, 9);
+}
+
+.thirdDiv > div > h4{
+    color:rgb(77, 9, 9);
+    font-size:4vmin;
+
+}
+
+
+.ForthDiv{
+    margin-top: 1vmax;
+    height: 78vmin;
+    width: 100%;
+    background-size: cover;
+    background-image: url("./Images/sixthBannerItem.png");
+    background-color: rgb(77, 9, 9);
+
+    background-repeat: no-repeat;
+    margin-bottom: 1vmax;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ForthDiv > div{
+    width: 50%;
+    text-align: center;
+    margin-left: 8%;
+}
+
+.ForthDiv > div >h3{
+        color:white;
+        font-size: 2vmax;
+
+    }
+    .ForthDiv > div > h3 > span{
+        color:  rgb(255, 187, 61);;
+        text-align: center;
+    }
+    .ForthDiv > div > h2{
+        color:white;
+        font-size: 3vmax;
+
+    }
+    .ForthDiv > div > h2 > span{
+        color: rgb(255, 187, 61);
+    }
+
+    .ForthDiv > div > button{
+        background: rgb(198, 151, 10);
+        background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+        padding: 1vmax;
+        border-radius: 10vmax;
+        color: white;
+        border: 0;
+        width: 10vmax;
+    }
+
+
+.ForthDiv > img{
+    width: 50%;
+    height: 100%;
+}
+
+
+.FifthDiv{
+    margin-top: 1vmax;
+    height: 78vmin;
+    width: 98vw;
+    margin-bottom: 1vmax;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.FifthDiv > img{
+    width:40%;
+}
+.FifthDiv > div{
+    margin-left: 1vmax;
+    width: 40%;
+}
+
+.FifthDiv > div > h3{
+    color: rgb(77, 9, 9);
+    font-size: 2vmax;
+}
+.FifthDiv > div > h2{
+    color: rgb(77, 9, 9);
+    font-size: 2vmax;
+}
+.FifthDiv > div > h4{
+    color: rgb(77, 9, 9);;
+    font-size: 3vmin;
+}
+.EndBanner{
+    margin-top: 1vmax;
+    min-height: 70vmin;
+    background-color: rgb(77, 9, 9);
+    background-image: url("./Images/ThirdBanner.png");
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row !important;
+    width:100%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    box-sizing: border-box;
+
+}
+
+ .detail2 > button{
+    background-color: rgb(198, 151, 10);
+    outline: none;
+border: none;
+padding: 0.3vmax;
+border-radius: 100%;    
+height: 40px;
+width: 40px;
+margin: 1vmax;
+}
+
+.detail{
+display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+    margin-top: 1.3vmax;
+}
+
+.navigate{
+color: white;
+margin-left: 45px;
+margin-top: 1.3vmax;
+
+
+}
+.navigate > h3{
+font-weight: 440;
+}
+.Contact{
+color: white;
+margin-left: 45px;
+margin-top: -150px;
+
+}
+.contactInput{
+border: 2px solid white;
+color: white;
+border-radius: 30px;
+display: flex;
+}
+.contactInput >input{
+padding: 1vmax 1vmax;
+padding-right: 1vmax;
+width: 90%;
+box-sizing: border-box;
+border: 1px solid rgba(0, 0, 0, 0.267);
+border-radius: 4px;
+font: 600 1.2vmax "Roboto";
+outline: none;
+background-color: transparent;
+color: white;
+
+}
+.contactInput > input::placeholder{
+color: rgb(236, 236, 236);
+font-weight: 300;
+}
+.contactInput > button{
+
+font-size: 1.6vmax;
+background: rgb(198, 151, 10);
+background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+padding: 1vmax;
+border-radius: 10vmax;
+color: white;
+border: 0;
+width: 10vmax;
+}
+
+footer{
+color: white;
+text-align: center;
+background: rgb(198, 151, 10);
+background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+padding: 0.1vmax;
+width:98.5vw;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    .headScreen {
+        /* height: 77vmin; */
+        background-color: rgb(77, 9, 9);
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+
+    }
+
+    .headScreen>div:first-child {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vmax;
+        padding-bottom: 5vmax;
+
+    }
+
+    .headScreen>div>nav {
+        margin: 0.1vmax;
+        padding: 1vmax;
+        font-size: 10px;
+    }
+
+
+    .headScreen>div:last-child>h2 {
+        margin: 0vmax;
+        font-size: 2.8vmax;
+    }
+
+    .headScreen>div>h1 {
+        font-size: 3.2vmax;
+        margin: 0vmax;
+    }
+
+}
+
