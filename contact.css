@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+
+.headScreen {
+    height: 55vmin;
+    background-color: rgb(77, 9, 9);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-image: url("./aboutImages/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 98vw;
+}
+
+.headScreen>div:first-child {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vmax;
+
+}
+
+.headScreen>div>nav {
+    color: white;
+    background-color: transparent;
+    margin: 2vmax;
+    padding: 1vmax;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.headScreen>div>nav:first-child {
+    border-bottom: 3px solid rgba(198, 151, 10, 1);
+}
+
+
+.headScreen>div>nav:last-child {
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 1vmax;
+    border-radius: 10vmax;
+}
+
+.headScreen>div:last-child {
+    margin: auto;
+    text-align: center;
+}
+
+
+.headScreen>div:last-child>h2 {
+    font-size: 4vmin;
+    color: white;
+    font-weight: 300;
+}
+
+.headScreen>div>h2>span {
+    color: rgb(255, 187, 61);
+}
+
+.headScreen>div>h1 {
+    color: white;
+    font-size: 10vmin;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+.headScreen>div>h1>span {
+    color: rgb(255, 187, 61);
+}
+
+
+
+.FormControllerDiv{
+    margin-top: 1vmax;
+    min-height: 70vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column !important;
+    width:100%;
+    box-sizing: border-box;
+}
+
+
+.FormControllerDiv >h2{
+    color: gray;
+font-size: 5vmax;
+}
+.FormControllerDiv > h2 > span{
+    color:  rgb(77, 9, 9);
+}
+.FormControllerDiv > form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.FormControllerDiv > form > input{
+    width: 30%;
+    padding: 1vmax 4vmax;
+    margin: 2vmax;
+    border-radius: 30px;
+    font-size:x-large;
+}
+.FormControllerDiv > form > textarea{
+    width: 80%;
+    height: 30vmin;
+    resize: none;
+    padding: 1vmax 3vmax;
+ box-sizing: border-box;
+ font-size:xx-large;
+ border-radius: 30px;
+
+}
+
+
+.FormControllerDiv > form > div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.FormControllerDiv > form > div > button{
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 1.4vmax;
+    border-radius: 10vmax;
+    color: white;
+    border: 0;
+    width: 16vmax;
+    font-size: larger;
+}
+
+.EndBanner{
+    margin-top: 1vmax;
+    min-height: 70vmin;
+    background-color: rgb(77, 9, 9);
+    background-image: url("./Images/ThirdBanner.png");
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row !important;
+    width:100%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    box-sizing: border-box;
+
+}
+
+ .detail2 > button{
+    background-color: rgb(198, 151, 10);
+    outline: none;
+border: none;
+padding: 0.3vmax;
+border-radius: 100%;    
+height: 40px;
+width: 40px;
+margin: 1vmax;
+}
+
+.detail{
+display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+    margin-top: 1.3vmax;
+}
+
+.navigate{
+color: white;
+margin-left: 45px;
+margin-top: 1.3vmax;
+
+
+}
+.navigate > h3{
+font-weight: 440;
+}
+.Contact{
+color: white;
+margin-left: 45px;
+margin-top: -150px;
+
+}
+.contactInput{
+border: 2px solid white;
+color: white;
+border-radius: 30px;
+display: flex;
+}
+.contactInput >input{
+padding: 1vmax 1vmax;
+padding-right: 1vmax;
+width: 90%;
+box-sizing: border-box;
+border: 1px solid rgba(0, 0, 0, 0.267);
+border-radius: 4px;
+font: 600 1.2vmax "Roboto";
+outline: none;
+background-color: transparent;
+color: white;
+
+}
+.contactInput > input::placeholder{
+color: rgb(236, 236, 236);
+font-weight: 300;
+}
+.contactInput > button{
+
+font-size: 1.6vmax;
+background: rgb(198, 151, 10);
+background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+padding: 1vmax;
+border-radius: 10vmax;
+color: white;
+border: 0;
+width: 10vmax;
+}
+
+footer{
+color: white;
+text-align: center;
+background: rgb(198, 151, 10);
+background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+padding: 0.1vmax;
+width:98.5vw;
+}
+
