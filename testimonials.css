@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.headScreen {
+    min-height: 100vmin;
+    background-color: rgb(77, 9, 9);
+    /* width: 100%; */
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-image: url("./Images/header.png");
+
+}
+
+.headScreen>div:first-child {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vmax;
+   
+}
+
+.headScreen > div > a >  nav{
+    color: white;
+    background-color: transparent;
+    margin: 2vmax;
+    padding: 1vmax;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headScreen>div > a:first-child > nav{
+
+    border-bottom: 3px solid rgba(198, 151, 10, 1);
+}
+
+.headScreen>div> a:last-child> nav {
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 1vmax;
+    border-radius: 10vmax;
+}
+
+.headScreen>div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headScreen>div:last-child>h2 {
+    margin: 2vmax;
+    font-size: 3vmax;
+    color: white;
+}
+
+.headScreen>div>h2>span {
+    color: rgb(255, 187, 61);
+}
+
+.headScreen>div>h1 {
+    color: white;
+    font-size: 5vmax;
+
+    text-align: center;
+    margin: 2vmax;
+}
+
+.headScreen>div>h1>span {
+    color: rgb(255, 187, 61);
+}
+
+
+
+.headings {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 10vmin;
+    margin-top: 10vmin;
+}
+
+.headings>h2 {
+    color: #4d0909;
+    font-weight: 500;
+}
+
+.headings>h1>span {
+    color: #4d0909;
+}
+
+.headings>h4 {
+    width: 50%;
+    margin: auto;
+}
+
+
+.client{
+    margin-top: 1vmax;
+    min-height: 100vmin;
+    width: 80%;
+    margin: auto;
+    background-size: contain;
+    margin-bottom: 1vmax;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.client > div{
+width: 100%;
+  align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.client > div > h3,
+.client > div > h1 > span{
+    color: rgb(77, 9, 9);
+}
+.client > div > h1{
+    font-size: 3vmax;
+}
+
+.client > div > h4{
+    text-align: center  ;
+    width: 50%;
+color: rgb(77, 9, 9);
+}
+
+
+.clientContainer{
+    margin-top: -1vmax;
+    min-height: 100vmin;
+    width: 100%;
+    background-size: contain;
+    margin-bottom: 1vmax;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.clientContainer > div{
+    width: 40%;
+    background-color: whitesmoke;
+    margin: 2vmax;
+    min-height: 40vmin;
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius:20px ;
+   border-bottom-right-radius: 20px;
+}
+
+.clientContainer > div > img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.clientContainer > div > div{
+    margin-left: 2vmin;
+    align-items: center;
+    justify-content: center;
+}
+
+.clientContainer > div > div> p {
+    letter-spacing: 2px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+
+
+
+
+
+.EndBanner {
+    margin-top: 1vmax;
+    min-height: 70vmin;
+    background-color: rgb(77, 9, 9);
+    background-image: url("./Images/ThirdBanner.png");
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+.detail2>button {
+    background-color: rgb(198, 151, 10);
+    outline: none;
+    border: none;
+    padding: 0.3vmax;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin: 1vmax;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3vmax;
+}
+
+.navigate {
+    color: white;
+    margin-left: 45px;
+    margin-top: 1.3vmax;
+
+
+}
+
+.navigate>h3 {
+    font-weight: 440;
+}
+
+.Contact {
+    color: white;
+    margin-left: 45px;
+    margin-top: -150px;
+
+}
+
+.contactInput {
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+}
+
+.contactInput>input {
+    padding: 1vmax 1vmax;
+    padding-right: 1vmax;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 600 1.2vmax "Roboto";
+    outline: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+.contactInput>input::placeholder {
+    color: rgb(236, 236, 236);
+    font-weight: 300;
+}
+
+.contactInput>button {
+
+    font-size: 1.6vmax;
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 1vmax;
+    border-radius: 10vmax;
+    color: white;
+    border: 0;
+    width: 10vmax;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 0.1vmax;
+    width: 98.5vw;
+}

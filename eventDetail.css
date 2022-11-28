@@ -3,10 +3,11 @@ body {
     padding: 0%;
 }
 
+
 .headScreen {
     min-height: 100vmin;
     background-color: rgb(77, 9, 9);
-    width: 100%;
+    /* width: 100%; */
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
     background-image: url("./Images/header.png");
@@ -77,144 +78,84 @@ a{
     color: rgb(255, 187, 61);
 }
 
-
-
-.secondDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width:98vw;    
-    margin-top: 30px;
-}
-
-
-.secondDiv > img{
-    width:60%;
-}
-.thirdDiv{
-    display: flex;
-    flex-direction: row;
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
-}
-.thirdDiv > div{
-    margin: 3vmax;
-width: 40%;
-}
-.thirdDiv > img{
-    width: 40%;
-
-}
-.thirdDiv > div> h3{
-    font-size:6vmin;
-}
-.thirdDiv > div> h1{
-    font-size:9vmin;
-}
-
-.thirdDiv > div > h1 >span{
-    color:rgb(77, 9, 9);
-}
-
-.thirdDiv > div > h4{
-    color:rgb(77, 9, 9);
-    font-size:4vmin;
-
-}
-
-
-.ForthDiv{
-    margin-top: 1vmax;
-    height: 78vmin;
-    width: 100%;
-    background-size: cover;
-    background-image: url("./Images/sixthBannerItem.png");
-    background-color: rgb(77, 9, 9);
-
-    background-repeat: no-repeat;
-    margin-bottom: 1vmax;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.ForthDiv > div{
-    width: 50%;
+.headings{
+    margin: auto;
+    width: 80%;
     text-align: center;
-    margin-left: 8%;
+    margin-bottom: 10vmin;
+    margin-top: 10vmin;
 }
-
-.ForthDiv > div >h3{
-        color:white;
-        font-size: 2vmax;
-
-    }
-    .ForthDiv > div > h3 > span{
-        color:  rgb(255, 187, 61);;
-        text-align: center;
-    }
-    .ForthDiv > div > h2{
-        color:white;
-        font-size: 3vmax;
-
-    }
-    .ForthDiv > div > h2 > span{
-        color: rgb(255, 187, 61);
+.headings > h2{
+    color: #4d0909;
+    font-weight: 500;
+}
+.headings > h1 > span{
+    color: #4d0909;
+}
+    .headings > h4{
+        width: 50%;
+        margin: auto;
     }
 
-    .ForthDiv > div > button{
-        background: rgb(198, 151, 10);
-        background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
-        padding: 1vmax;
-        border-radius: 10vmax;
-        color: white;
-        border: 0;
-        width: 10vmax;
-    }
-
-
-.ForthDiv > img{
-    width: 50%;
-    height: 100%;
+.Event{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 80%;
+    margin: auto;
 }
 
-
-.FifthDiv{
-    margin-top: 1vmax;
-    height: 78vmin;
-    width: 98vw;
-    margin-bottom: 1vmax;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
+.Event > img{
+    width: 90%;
+    height: 50vmin;
 }
-
-
-.FifthDiv > img{
-    width:40%;
-}
-.FifthDiv > div{
-    margin-left: 1vmax;
-    width: 40%;
-}
-
-.FifthDiv > div > h3{
-    color: rgb(77, 9, 9);
+.Event > div > h2{
+    font-weight: 900;
     font-size: 2vmax;
 }
-.FifthDiv > div > h2{
-    color: rgb(77, 9, 9);
-    font-size: 2vmax;
+.Banner{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-top: 10vmin;
+
 }
-.FifthDiv > div > h4{
-    color: rgb(77, 9, 9);;
-    font-size: 3vmin;
+.Banner > div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
+.Banner > div > h2{
+    font-weight: 500;
+    color: #4d0909;
+}
+.Banner > div > h1 > span{
+color: #4d0909;
+}
+
+
+.Banner >img{
+    width: 95%;
+    box-sizing: border-box;
+    margin-bottom: 10vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .EndBanner{
     margin-top: 1vmax;
     min-height: 70vmin;
@@ -309,46 +250,5 @@ background: rgb(198, 151, 10);
 background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
 padding: 0.1vmax;
 width:98.5vw;
-}
-
-
-
-@media only screen and (max-width: 770px) {
-    .headScreen {
-        /* height: 77vmin; */
-        background-color: rgb(77, 9, 9);
-        border-bottom-left-radius: 30%;
-        border-bottom-right-radius: 30%;
-
-    }
-
-    .headScreen>div:first-child {
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-        align-items: center;
-        justify-content: center;
-        padding-top: 5vmax;
-        padding-bottom: 5vmax;
-
-    }
-
-    .headScreen>div>nav {
-        margin: 0.1vmax;
-        padding: 1vmax;
-        font-size: 10px;
-    }
-
-
-    .headScreen>div:last-child>h2 {
-        margin: 0vmax;
-        font-size: 2.8vmax;
-    }
-
-    .headScreen>div>h1 {
-        font-size: 3.2vmax;
-        margin: 0vmax;
-    }
-
 }
 

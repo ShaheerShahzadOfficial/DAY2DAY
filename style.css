@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
 body {
     margin: 0;
     padding: 0%;
@@ -6,7 +9,7 @@ body {
 
 .headScreen {
     min-height: 100vmin;
-    background-color: rgb(77, 9, 9);
+    background-color: #4d0909;
     /* width: 100%; */
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
@@ -24,7 +27,7 @@ body {
    
 }
 
-.headScreen>div>nav {
+.headScreen > div > a >  nav{
     color: white;
     background-color: transparent;
     margin: 2vmax;
@@ -32,12 +35,16 @@ body {
     font-size: 20px;
 }
 
-.headScreen>div>nav:first-child {
+a{
+    text-decoration: none;
+}
+
+.headScreen>div > a:first-child > nav{
 
     border-bottom: 3px solid rgba(198, 151, 10, 1);
 }
 
-.headScreen>div>nav:last-child {
+.headScreen>div> a:last-child> nav {
     background: rgb(198, 151, 10);
     background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
     padding: 1vmax;
@@ -170,7 +177,7 @@ font-size: 3vmax;
 .forthBanner{
     margin-top: 1vmax;
     min-height: 100vmin;
-    width: 100%;
+    width: 80%;
     background-size: contain;
     margin-bottom: 1vmax;
     align-items: center;
@@ -178,6 +185,7 @@ font-size: 3vmax;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto;
 }
 .LearnMore{
     margin: 4vmax;
@@ -189,7 +197,7 @@ font-size: 3vmax;
     
 
 }
-.LearnMore > button{
+.LearnMore > a>  button{
     background: rgb(198, 151, 10);
     background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
     padding: 1vmax;
@@ -200,7 +208,7 @@ font-size: 3vmax;
 }
 
 .portFolioContainer{
-    margin: 4vmax;
+    margin: 2vmax;
     width: 20vmax;
     align-items: center;
     justify-content: center;
@@ -213,7 +221,9 @@ font-size: 3vmax;
 width: 100%;
 
 }
-
+.portFolioContainer > h4{
+text-align: center;
+}
 
 
 
@@ -282,7 +292,8 @@ width: 100%;
 .client{
     margin-top: 1vmax;
     min-height: 100vmin;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     background-size: contain;
     margin-bottom: 1vmax;
     align-items: center;
@@ -339,19 +350,27 @@ color: rgb(77, 9, 9);
     min-height: 40vmin;
     display: flex;
     flex-direction: row;
+    border-top-left-radius:20px ;
+   border-bottom-right-radius: 20px;
 }
 
 .clientContainer > div > img{
     width: 50%;
-}
+    border-radius: 20px;
+}   
 
 .clientContainer > div > div{
     margin-left: 2vmin;
+    align-items: center;
+    justify-content: center;
+}   
+
+.clientContainer > div > div> p {
+    letter-spacing: 2px;
+    font-family: "Roboto";
+    font-weight: 600;
 }
-.clientContainer > div > div> h3 {
-    margin-top: 4vmin;
-font-size: 1.4vmax;
-}
+
 .viewAll{
     background: rgb(198, 151, 10);
     background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
@@ -372,7 +391,7 @@ font-size: 1.4vmax;
         justify-content: center;
         display: flex;
         flex-direction: row !important;
-        width:100%;
+        width:100% !important;
         border-top-left-radius:50%;
         border-top-right-radius:50%;
         box-sizing: border-box;
@@ -605,7 +624,7 @@ footer{
     flex-direction: column;
     background-color: whitesmoke;
 }
-.LearnMore > button{
+.LearnMore > a>  button{
     background: rgb(198, 151, 10);
     background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
     padding: 1vmax;

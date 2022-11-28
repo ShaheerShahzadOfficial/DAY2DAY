@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.headScreen {
+    min-height: 100vmin;
+    background-color: rgb(77, 9, 9);
+    /* width: 100%; */
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-image: url("./Images/header.png");
+
+}
+
+.headScreen>div:first-child {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vmax;
+   
+}
+
+.headScreen > div > a >  nav{
+    color: white;
+    background-color: transparent;
+    margin: 2vmax;
+    padding: 1vmax;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headScreen>div > a:first-child > nav{
+
+    border-bottom: 3px solid rgba(198, 151, 10, 1);
+}
+
+.headScreen>div> a:last-child> nav {
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 1vmax;
+    border-radius: 10vmax;
+}
+
+.headScreen>div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headScreen>div:last-child>h2 {
+    margin: 2vmax;
+    font-size: 3vmax;
+    color: white;
+}
+
+.headScreen>div>h2>span {
+    color: rgb(255, 187, 61);
+}
+
+.headScreen>div>h1 {
+    color: white;
+    font-size: 5vmax;
+
+    text-align: center;
+    margin: 2vmax;
+}
+
+.headScreen>div>h1>span {
+    color: rgb(255, 187, 61);
+}
+
+
+
+
+
+.firstImage{
+    margin: auto;
+width: 70%;
+}
+
+.firstImage > img{
+    margin-top: 10vmin;
+    margin-bottom: 10vmin;
+
+    width: 100%;
+}
+
+.second{
+    text-align: center;
+    background-image: url("./Images/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10vmin;
+}
+.second > div > h3{
+    padding-top: 10vmin;
+}
+.second > div > h3,
+.second > div > h1 > span
+{
+color: rgb(255, 187, 61); 
+}
+.second > div > h1{
+    color: white;
+}
+
+
+
+
+.third{
+    text-align: center;
+}
+.third > div > h3{
+    font-weight: 400;
+}
+
+.third > div > h1{
+    color: #4d0909;
+}
+.third > div > h1 > span{
+    color: rgb(68, 68, 68);
+}
+
+.ImageContainer{
+width: 60%;
+margin: auto;
+}
+.ImageContainer > img{
+    width: 100%;
+    margin-bottom: 10vmin;
+
+}
+
+
+
+
+
+
+.EndBanner {
+    margin-top: 1vmax;
+    min-height: 70vmin;
+    background-color: rgb(77, 9, 9);
+    background-image: url("./Images/ThirdBanner.png");
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+.detail2>button {
+    background-color: rgb(198, 151, 10);
+    outline: none;
+    border: none;
+    padding: 0.3vmax;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin: 1vmax;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3vmax;
+}
+
+.navigate {
+    color: white;
+    margin-left: 45px;
+    margin-top: 1.3vmax;
+
+
+}
+
+.navigate>h3 {
+    font-weight: 440;
+}
+
+.Contact {
+    color: white;
+    margin-left: 45px;
+    margin-top: -150px;
+
+}
+
+.contactInput {
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+}
+
+.contactInput>input {
+    padding: 1vmax 1vmax;
+    padding-right: 1vmax;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 600 1.2vmax "Roboto";
+    outline: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+.contactInput>input::placeholder {
+    color: rgb(236, 236, 236);
+    font-weight: 300;
+}
+
+.contactInput>button {
+
+    font-size: 1.6vmax;
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 1vmax;
+    border-radius: 10vmax;
+    color: white;
+    border: 0;
+    width: 10vmax;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background: rgb(198, 151, 10);
+    background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
+    padding: 0.1vmax;
+    width: 98.5vw;
+}

@@ -5,14 +5,13 @@ body {
 
 
 .headScreen {
-    height: 55vmin;
+    min-height: 100vmin;
     background-color: rgb(77, 9, 9);
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    background-image: url("./aboutImages/header.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-   width: 98vw;
+    /* width: 100%; */
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-image: url("./Images/header.png");
+
 }
 
 .headScreen>div:first-child {
@@ -22,25 +21,27 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 2vmax;
-
+   
 }
 
-.headScreen>div>nav {
+.headScreen > div > a >  nav{
     color: white;
     background-color: transparent;
     margin: 2vmax;
     padding: 1vmax;
-    font-size: 26px;
-    text-align: center;
-    font-weight: bolder;
+    font-size: 20px;
 }
 
-.headScreen>div>nav:first-child {
+a{
+    text-decoration: none;
+}
+
+.headScreen>div > a:first-child > nav{
+
     border-bottom: 3px solid rgba(198, 151, 10, 1);
 }
 
-
-.headScreen>div>nav:last-child {
+.headScreen>div> a:last-child> nav {
     background: rgb(198, 151, 10);
     background: linear-gradient(180deg, rgba(198, 151, 10, 1) 0%, rgba(138, 13, 13, 1) 100%);
     padding: 1vmax;
@@ -48,15 +49,17 @@ body {
 }
 
 .headScreen>div:last-child {
-    margin: auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .headScreen>div:last-child>h2 {
-    font-size: 4vmin;
+    margin: 2vmax;
+    font-size: 3vmax;
     color: white;
-    font-weight: 300;
 }
 
 .headScreen>div>h2>span {
@@ -65,17 +68,15 @@ body {
 
 .headScreen>div>h1 {
     color: white;
-    font-size: 10vmin;
-    text-align: center;
-    font-weight: 900;
-    margin: 0;
+    font-size: 5vmax;
 
+    text-align: center;
+    margin: 2vmax;
 }
 
 .headScreen>div>h1>span {
     color: rgb(255, 187, 61);
 }
-
 
 
 .FormControllerDiv{
